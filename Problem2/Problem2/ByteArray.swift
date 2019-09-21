@@ -47,8 +47,8 @@ class ByteArray {
     
     
     func read() {
-        for i in 0..<array.count {
-            print(array[i], terminator: " ")
+        for element in array {
+            print(element, terminator: " ")
         }
     }
     
